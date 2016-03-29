@@ -1,49 +1,179 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Amy Kotas by amykotas</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <title>Amy Kotas | Front End Web Developer</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Amy Kotas</h1>
-        <p>Designer + Developer</p>
+    <!-- Bootstrap and Customizations -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
-
-        <p class="view"><a href="https://github.com/amykotas">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a id="hi-im-amy" class="anchor" href="#hi-im-amy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hi, I'm Amy.</h3>
-
-<p>I’m a graphic designer and web developer with several years of experience in print (publications, advertising). Proficient in HTML5, CSS3, and getting up to speed with JS/JQuery, PHP, and CMS such as WordPress. I have a background in the liberal arts and I am a voracious lifelong learner.</p>
-
-<p>I'm currently taking the Freelance Wordpress Developer Blueprint at <a href="http://skillcrush.com">Skillcrush</a>, and loving every minute of it.</p>
-
-<p>It's my goal to design and develop websites, and printed media, for creative entrepreneurs, bloggers, and small businesses. I'm also interested in remote part-time and contract positions in web development. In either case, please contact me and let's have a chat.</p>
-
-<p>When I'm not working out design solutions, searching Google Fonts, taking online classes, chasing my children around, or drinking coffee (<em>if you're buying:</em> light roast, cream, no sugar)—I'm probably asleep. <em>Shhh</em>.</p>
-
-<h3>
-<a id="contact-me" class="anchor" href="#contact-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact Me</h3>
-
-<p>See my code at GitHub: <a href="https://github.com/amykotas" class="user-mention">@amykotas</a>, or follow me on <a href="https://twitter.com/amykotas">Twitter</a>. There's also <a href="mailto:hello@amykotas.com">email</a>.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!-- Google Fonts -->
     
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Montserrat:700' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body id="top">
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-default navbar-fixed-top transparent">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#top" title="home"><i class="fa fa-code fa-lg"></i></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <!-- JUMBOTRON -->  
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>Amy Kotas</h1>
+        <h2><span id="box">Front End Web Developer</span></h2>
+      </div> <!-- close container -->
+    </div> <!-- close JUMBOTRON -->
+
+    <div id="about" class="container-fluid my-containers">
+      <div class="row">
+        <div class="section">
+          <h3 class="text-center"><span class="sectionName">About Me</span></h3>
+          <div class="col-md-3">
+            <img src="img/portrait.jpg" alt="photo of Amy Kotas" class="img-responsive img-circle">
+          </div>
+          <div class="col-md-9">
+            <p>Hi, I&rsquo;m Amy Kotas&mdash;a self-taught web developer who wants to know <em>All The Things</em>. I&rsquo;m currently learning to code at <a href="http://freecodecamp.com" target="_blank">Free Code Camp</a>, with the goal of completing their Full Stack program. I&rsquo;ve completed the <a href="https://onemonth.com/courses/one-month-rails" target="_blank">One Month</a> Ruby on Rails course; and every online course offered by the <a href="http://thewc.co/" target="_blank">Women&rsquo;s Coding Collective</a> (who I worked for briefly). Prior to getting into web development, I worked as a graphic designer.</p>
+            <p>I have a Bachelor of Arts degree in Classics from Connecticut College, and a Master of Public Administration degree from Suffolk University.</p>
+          </div>
+        </div> <!-- close section -->
+      </div> <!-- close row -->
+    </div> <!-- close ABOUT -->
+
+    <div id="skills" class="container-fluid my-containers">
+      <div class="section">
+        <h3 class="text-center"><span class="sectionName">Skills</span></h3>
+        <p>I am proficient in the following languages and frameworks: HTML5, CSS3, JavaScript, jQuery, Bootstrap; as well as version control (Git, GitHub), responsive design, and graphic design.</p>
+      </div> <!-- close section -->
+    </div> <!-- close SKILLS -->
+
+    <div id="portfolio" class="container-fluid my-containers">
+      <div class="section">
+        <h3 class="text-center"><span class="sectionName">Portfolio</span></h3>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <a href="http://amy-omr.herokuapp.com" target="_blank"><img src="img/pinteresting.png" alt="Pinteresting website" class="img-responsive"></a>
+              <div class="caption">
+                <h4>Pinteresting</h4>
+                <p>A fully-functioning Pinterest style web application that I built in the <a href="https://onemonth.com/courses/one-month-rails" target="_blank">One Month Rails</a> course. It is built with Ruby on Rails and uses the Bootstrap framework.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/placeholder2.png" alt="computer, laptop, smartphone" class="img-responsive">
+              <div class="caption">
+                <h4>Project 2</h4>
+                <p>Coming soon.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/placeholder1.png" alt="computer, laptop, smartphone" class="img-responsive">
+              <div class="caption">
+                <h4>Project 3</h4>
+                <p>Coming soon.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div> <!-- close row -->
+      </div> <!-- close section -->
+    </div> <!-- close PORTFOLIO -->
+      
+    <div id="contact" class="container-fluid my-containers text-center">
+      <div class="section">
+        <h3 class="text-center"><span class="sectionName">Contact Me</span></h3>
+        <ul class="list-unstyled list-inline">
+          <li><a href="https://twitter.com/AmyKotas" target="_blank" role="button" aria-label="Twitter">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa my-fa-twitter fa-1x fa-stack-1x fa-inverse"></i>
+              </span></a>
+          </li>
+          <li><a href="https://github.com/amykotas" target="_blank" role="button" aria-label="Github">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa my-fa-github fa-1x fa-stack-1x fa-inverse"></i>
+              </span></a>
+          </li>
+          <li><a href="http://linkedin.com/in/amykotas" target="_blank" role="button" aria-label="Linked In">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa my-fa-linkedin fa-1x fa-stack-1x fa-inverse"></i>
+              </span></a>
+          </li>
+          <li><a href="https://www.freecodecamp.com/amykotas" target="_blank" role="button" aria-label="Free Code Camp">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa my-fa-fire fa-1x fa-stack-1x fa-inverse"></i>
+              </span></a>
+          </li>
+        </ul>
+      </div> <!-- close section -->
+    </div> <!-- close CONTACT -->
+
+    <div id="imageFooter" class="container-fluid my-containers"></div>
+
+    <div id="footer" class="container-fluid my-containers text-center">
+      <div class="row">
+        <div class="section">
+          <div class="col-md-12">
+                      <p class="copyright">Design + Code by Amy Kotas <i class="fa fa-coffee"></i> 2016</p>
+                  </div>
+        </div> <!-- close section -->
+      </div> <!-- close row -->
+    </div> <!-- close FOOTER -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
   </body>
+
 </html>

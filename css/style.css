@@ -1,0 +1,238 @@
+/* ****  COLORS **** 
+  #fff    white 
+  #ffc354 sunflower lt
+  #f6bb42 sunflower
+  #d83b4c grapefruit
+  #ed5565 grapefruit lt 
+  #856964 hot chocolate
+  #bcaca9 latte
+  #f4f4ef newsprint */
+
+/* **** FONTS **** 
+  font-family: 'Karla', sans-serif; 
+  (normal 400, bold 700)
+  font-family: 'Bitter', serif; 
+  (normal 400, normal 400 italic)
+
+  Simple Parallax Scrolling effect: http://callmenick.com/post/simple-parallax-scrolling-effect
+*/
+
+body { 
+  padding-top: 70px; 
+  padding-bottom: 0px; 
+  font-family: 'Bitter', serif;
+  color: #856964; /* hot chocolate */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75em;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #d83b4c; /* grapefruit */
+}
+
+h3 {
+    margin: 1.5em 0; 
+}
+
+a:link {
+  color: #d83b4c; /* grapefruit */
+}
+
+a:visited {
+  color: #bcaca9; /* latte */
+}
+
+a:hover {
+  color: #ed5565; /* grapefruit lt */ 
+}
+
+a:active {
+  color: #d83b4c; /* grapefruit */
+}
+
+.section {
+  max-width: 970px;  
+  margin: auto;
+}
+
+.sectionName {
+  border: 3px solid #ffc354; /* sunflower lt */
+  padding: 0.5em;
+}
+
+.my-containers {
+  padding: 1.75em 2em;  
+} 
+
+.navbar {
+  background-color: white;
+  color: #d83b4c !important; /* grapefruit */
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: none;
+  font-family: 'Karla', sans-serif; 
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+} 
+
+ .navbar-brand {
+  padding-top: 12px;
+  padding-left: 10px;
+  color: #d83b4c !important; /* grapefruit */
+} 
+
+.navbar li a {
+  color: #d83b4c !important; /* grapefruit */
+}
+
+.navbar li a:hover {
+  text-decoration: underline !important; 
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #d83b4c; /* grapefruit */
+}
+
+.jumbotron {
+  padding: 5em;
+  margin-bottom: 0;
+  color: #fff; 
+  background-image: url("../img/desk.jpg");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: -2px;
+  text-shadow: 2px 2px 0px #d83b4c, 8px 5px 0px rgba(128, 84, 98, 0.12);
+}
+
+.jumbotron h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #d83b4c; /* grapefruit */
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+#box {
+  background-color: white;
+  padding: 5px;
+}
+
+.btn {
+  margin-right: 5px;
+  border: 0;
+  border-radius: 0;
+  background-color: #d83b4c; /* grapefruit */
+  color: white; 
+}
+
+.my-fa-twitter:before {
+  content: "\f099";
+}
+
+.my-fa-github:before {
+  content: "\f09b";
+}
+
+.my-fa-linkedin:before {
+  content: "\f0e1";
+}
+
+.my-fa-fire:before {
+  content: "\f06d";
+}
+
+#about img {
+  padding-bottom: 10px;
+}
+
+#skills {
+  background-color: #f4f4ef; /* newsprint */
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills li {
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+#portfolio h4 {
+  margin: 10px 0;
+}
+
+#portfolio img {
+  /* filter: gray; /* IE6-9 */
+  /* -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    margin-bottom:20px;
+}
+
+#portfolio img:hover {
+  /* filter: none; /* IE6-9 */
+  /* -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); 
+ }
+
+#contact {
+  background-color: #f4f4ef; /* newsprint */
+}
+
+#contact ul li {
+  padding: 0;
+}
+
+#contact ul li a:link {
+  color: #d83b4c; /* grapefruit */
+}
+
+#contact ul li a:visited {
+  color: #856964; /* hot chocolate */
+}
+
+#contact ul li a:hover {
+  color: #ed5565; /* grapefruit lt */
+}
+
+#contact ul li a:active {
+  color: #f6bb42; /* sunflower */
+}
+
+#imageFooter {
+  height: 100px;
+  background-image: url("../img/desk.jpg");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#footer {
+  background-color: #856964; /* hot chocolate */
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
